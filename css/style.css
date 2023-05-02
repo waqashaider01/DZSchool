@@ -1,0 +1,200 @@
+:root{
+    --color_1: #298DC5;
+    --color_2: #F5F5F5;
+    --color_3: #DFBB00;
+    --color_4: #000000;
+    --color_5: #FFFFFF;
+    --color_6: #9C8A2C;
+    --color_7: #075A7C;
+    --color_8: #7EDEFC;
+    --color_9: #ABABAB;
+    --color_10: #037AAB;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+/* ***************************DZ School Header****************************** */
+
+/* ------Header Title------ */
+.website_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: var(--color_1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.header_title{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    color: var(--color_2);
+}
+
+.header_title:hover{
+    color: var(--color_2);
+}
+  
+.header_title span{
+    color: var(--color_3);
+    margin-right: 5px;
+}
+
+/* ------Header Toggle Button------ */
+
+.header_toggle_button{
+    color: var(--color_3);
+    border: 2px solid var(--color_3);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.header_toggle_button_icon{
+    color: var(--color_3);
+    background-image: none;
+}
+
+.header_toggle_button_icon i{
+    font-size: 32px;
+}
+
+/* ------Header Nav Tabs------ */
+  
+.header_nav_tabs li{
+    margin: 0 10px;
+}
+  
+.header_nav_tabs li a{
+    color: var(--color_5);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header_nav_tabs li a:hover{
+    color: var(--color_3);
+    transition: all 0.2s ease-in-out;
+}
+ 
+/* ------Header Contact Us Button------ */
+.header_button{
+    background-color: transparent;
+    color: var(--color_3);
+    border: 2px solid var(--color_3);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+  
+.header_button:hover{
+    color: var(--color_2);
+    border: 2px solid var(--color_2);
+    transition: all 0.2s ease-in-out;
+}
+
+/* ***************************DZ School Hero Section****************************** */
+
+.hero_div_left{
+    padding-top: 120px;
+}
+
+/* -----Hero Section Heading------ */
+.hero_div_left h1{
+    color: var(--color_4);
+    font-weight: 700;
+    font-size: 57px;
+}
+
+/* -----Hero Section Paragraph----- */
+.hero_div_left p{
+    color: var(--color_4);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* -----Hero Section Buttons----- */
+
+.hero_buttons{
+    gap: 1rem;
+}
+
+.button_1{
+    background-color: var(--color_7);
+    border-radius: 10px;
+    padding: 8px 50px;
+    color: var(--color_5);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button_1:hover{
+    background-color: var(--color_3);
+    color: var(--color_5);
+}
+
+.button_2{
+    border-radius: 10px;
+    padding: 8px 30px;
+    border: 2px solid var(--color_3);
+    color: var(--color_3);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button_2:hover{
+    border: 2px solid var(--color_7);
+    color: var(--color_7);
+}
+
+.hero_div_right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_div_right img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+/* ***************************Home Page Banner 2****************************** */
+
+.banner_2{
+    margin-top: 82px;
+    background-color: var(--color_10);
+    padding: 34px 200px;
+}
+
+.banner_2_inner{
+    background-color: var(--color_7);
+    border: 1px solid var(--color_8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.banner_2_inner h3{
+    color: var(--color_5);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.banner_2_inner p{
+    color: var(--color_5);
+    font-weight: 500;
+    font-size: 24px;
+}
+
