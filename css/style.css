@@ -1,4 +1,4 @@
-:root{
+:root {
     --color_1: #298DC5;
     --color_2: #F5F5F5;
     --color_3: #DFBB00;
@@ -11,7 +11,7 @@
     --color_10: #037AAB;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -19,7 +19,7 @@ body{
 /* ***************************DZ School Header****************************** */
 
 /* ------Header Title------ */
-.website_header{
+.website_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,8 +27,8 @@ body{
     background-color: var(--color_1);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-  
-.header_title{
+
+.header_title {
     margin: 0;
     font-size: 30px;
     font-weight: 800;
@@ -36,53 +36,53 @@ body{
     color: var(--color_2);
 }
 
-.header_title:hover{
+.header_title:hover {
     color: var(--color_2);
 }
-  
-.header_title span{
+
+.header_title span {
     color: var(--color_3);
     margin-right: 5px;
 }
 
 /* ------Header Toggle Button------ */
 
-.header_toggle_button{
+.header_toggle_button {
     color: var(--color_3);
     border: 2px solid var(--color_3);
     border-radius: 10px;
     padding: 10px 20px;
 }
 
-.header_toggle_button_icon{
+.header_toggle_button_icon {
     color: var(--color_3);
     background-image: none;
 }
 
-.header_toggle_button_icon i{
+.header_toggle_button_icon i {
     font-size: 32px;
 }
 
 /* ------Header Nav Tabs------ */
-  
-.header_nav_tabs li{
+
+.header_nav_tabs li {
     margin: 0 10px;
 }
-  
-.header_nav_tabs li a{
+
+.header_nav_tabs li a {
     color: var(--color_5);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
 }
 
-.header_nav_tabs li a:hover{
+.header_nav_tabs li a:hover {
     color: var(--color_3);
     transition: all 0.2s ease-in-out;
 }
- 
+
 /* ------Header Contact Us Button------ */
-.header_button{
+.header_button {
     background-color: transparent;
     color: var(--color_3);
     border: 2px solid var(--color_3);
@@ -92,8 +92,8 @@ body{
     font-weight: 600;
     text-align: right;
 }
-  
-.header_button:hover{
+
+.header_button:hover {
     color: var(--color_2);
     border: 2px solid var(--color_2);
     transition: all 0.2s ease-in-out;
@@ -101,19 +101,19 @@ body{
 
 /* ***************************DZ School Hero Section****************************** */
 
-.hero_div_left{
+.hero_div_left {
     padding-top: 120px;
 }
 
 /* -----Hero Section Heading------ */
-.hero_div_left h1{
+.hero_div_left h1 {
     color: var(--color_4);
     font-weight: 700;
     font-size: 57px;
 }
 
 /* -----Hero Section Paragraph----- */
-.hero_div_left p{
+.hero_div_left p {
     color: var(--color_4);
     font-weight: 400;
     font-size: 24px;
@@ -121,11 +121,11 @@ body{
 
 /* -----Hero Section Buttons----- */
 
-.hero_buttons{
+.hero_buttons {
     gap: 1rem;
 }
 
-.button_1{
+.button_1 {
     background-color: var(--color_7);
     border-radius: 10px;
     padding: 8px 50px;
@@ -135,12 +135,25 @@ body{
     transition: all 0.2s ease-in-out;
 }
 
-.button_1:hover{
+
+.btn_img {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+
+.btn_img_postion {
+    position: relative;
+}
+
+.button_1:hover {
     background-color: var(--color_3);
     color: var(--color_5);
 }
 
-.button_2{
+.button_2 {
     border-radius: 10px;
     padding: 8px 30px;
     border: 2px solid var(--color_3);
@@ -150,12 +163,12 @@ body{
     transition: all 0.2s ease-in-out;
 }
 
-.button_2:hover{
+.button_2:hover {
     border: 2px solid var(--color_7);
     color: var(--color_7);
 }
 
-.hero_div_right{
+.hero_div_right {
     width: 100%;
     height: 100%;
     display: flex;
@@ -163,21 +176,22 @@ body{
     justify-content: center;
 }
 
-.hero_div_right img{
+.hero_div_right img {
     width: 100%;
     object-fit: cover;
     background-size: cover;
 }
 
+
 /* ***************************Home Page Banner 2****************************** */
 
-.banner_2{
+.banner_2 {
     margin-top: 82px;
     background-color: var(--color_10);
     padding: 34px 200px;
 }
 
-.banner_2_inner{
+.banner_2_inner {
     background-color: var(--color_7);
     border: 1px solid var(--color_8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -186,15 +200,14 @@ body{
     padding: 40px;
 }
 
-.banner_2_inner h3{
+.banner_2_inner h3 {
     color: var(--color_5);
     font-weight: 700;
     font-size: 40px;
 }
 
-.banner_2_inner p{
+.banner_2_inner p {
     color: var(--color_5);
     font-weight: 500;
     font-size: 24px;
 }
-
