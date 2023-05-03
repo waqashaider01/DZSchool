@@ -38,6 +38,7 @@ body {
 
 /* ***************************DZ School Header****************************** */
 
+
 /* ------Header Title------ */
 .website_header {
     display: flex;
@@ -47,7 +48,6 @@ body {
     background-color: var(--color_1);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .header_title {
     margin: 0;
     font-size: 35px;
@@ -381,6 +381,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
+
 .anchor_6_1 p{
     margin-top: -5px;
     color: var(--color_5);
@@ -420,3 +421,203 @@ body {
     font-weight: 400;
     font-size: 10px;
 }
+
+/*#####################> Admin Start <################*/
+/* Banner Start  */
+
+.ban_sec {
+    position: relative;
+    background: linear-gradient(104.38deg, rgba(0, 120, 170, 0.63) 8.4%, rgba(192, 0, 223, 0.63) 100%);
+  width: 100%;
+}
+.ban_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.ban_img1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.ban_img img {
+  width: 50%;
+ height: 90vh;
+ z-index: -111;
+     
+
+}
+.ban_img1 img {
+  width: 100%;
+ height: 90vh;
+ z-index: -111;
+     
+
+}
+.ban_text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  
+
+}
+.ban_text1{
+    position: absolute;
+  top: 20%;
+  left: 0%;
+  text-align: center;
+}
+
+.ban_text strong {
+  font: 800 70.22px/70px "Montserrat", sans-serif;
+  color: #fff;
+    transform: translateY(-50%,-50);
+  text-transform: uppercase;
+}
+.ban_text strong span {
+  font: 400 60.44px/52px "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  line-height: 100px;
+}
+ 
+ 
+@media(max-width:950px)
+{
+
+    .ban_text1 strong span {
+  font: 400 30.44px/52px "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+
+}
+@media only screen and (max-width: 767px) {
+  .ban_img img {
+    min-height: 290px;
+    object-fit: cover;
+  }
+}
+ 
+@media only screen and (max-width: 480px) {
+  .ban_text strong span {
+    font-size: 30px;
+    line-height: 31px;
+    letter-spacing: 1px;
+  }
+
+    .ban_text1 strong span {
+    font-size: 25px !important;
+    line-height:0px !important;
+    letter-spacing: 1px;
+  }
+   .ban_img img {
+    width: 100%;
+    height: 100vh;
+}
+.ban_text {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  
+
+}
+
+.ban_text1 {
+  position: absolute;
+  top: 10% !important;
+  left: 0%;
+  
+
+}
+}
+/* Bannner End  */
+
+/* Work Start  */
+.work{
+    text-align: center;
+
+}
+.Main_Haed_work{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 47px;
+text-align: center;
+
+color:var(--color_7);
+}
+/* Work End  */
+
+
+ .admin_rounded_card{
+  
+
+
+    background: var(--color_5);
+box-shadow: 7px 8px 23px rgba(0, 0, 0, 0.25), -6px 0px 26px rgba(125, 220, 249, 0.57);
+
+        border-top-left-radius: 170px;
+        border-top-right-radius: 170px;
+        width: 100%;
+        height: 330px;
+ }
+ 
+ @media(max-width:768px)
+ {
+    
+ .admin_rounded_card{
+  
+        border-top-left-radius: 300px;
+        border-top-right-radius: 300px;
+         
+ }
+ }
+ .admin_card_img{
+    width: 80px;
+ }
+ .card_heading{
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+ 
+line-height: 42px;
+ 
+text-align: center;
+
+color: #000000;
+
+ }
+
+/*#####################> Admin Start <################*/
+
+
+
+/* Feature Start  */
+.school_Main img{
+    width: 100%;
+
+}
+.school_section_text{
+     font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 47px;
+ 
+
+color:var(--color_7);
+}
+
+.feature_card img{
+    width: 100%;
+    height: 200px;
+}
+.feature_card{
+    background-color: var(--color_10);
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+
