@@ -799,14 +799,24 @@ border: none;
 border-radius: 10px;
         width: 100%;
         text-align: start;
-        height: 400px;
+       
 }
 .card_hand{
     height: 250px;
 }
  @media(max-width:768px)
  {
-    
+  
+    .about_card_seco{
+     
+ 
+/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39); */
+border: none;
+border-radius: 10px;
+        width: 100%;
+        text-align: start;
+        height: auto !important;
+}
  .admin_rounded_card{
   
         border-top-left-radius: 300px;
