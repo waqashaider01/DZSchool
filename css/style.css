@@ -159,6 +159,11 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
+.button_1 span{
+    position: relative;
+    left: -40px;
+}
+
 
 .btn_img {
     width: 80px;
