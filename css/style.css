@@ -793,7 +793,6 @@ border-radius: 10px;
 
 .about_card_seco{
      
- 
 /* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39); */
 border: none;
 border-radius: 10px;
@@ -877,12 +876,15 @@ color:var(--color_7);
     height: auto;
     object-fit: cover;
     background-size: 100%;
+    margin-bottom: -140px;
+    z-index: -1;
 }
 .feature_bg2{
     width: 100%;
     background-size: cover;
     position: relative;
     bottom: 50px;
+    z-index: -100;
 }
 @media(max-width:768px)
 {
@@ -892,7 +894,14 @@ color:var(--color_7);
     position: relative;
     bottom: 0px;
 }
+    .feature_bg{
+ 
+  
+    margin-bottom: -100px;
+
 }
+}
+ 
 
 
 
