@@ -39,6 +39,8 @@ body {
     background-size: cover;
 }
 
+/* ######################################Landing Page###################################### */
+
 /* ***************************DZ School Header****************************** */
 
 
@@ -653,6 +655,33 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
+/* ######################################Contact Us Page###################################### */
+
+/* ------Contact Us Page Banner 1------ */
+.contact_info h3{
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--color_4);
+}
+
+.contact_info p{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color_4);
+}
+
+.contact_info a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color_4);
+}
+
+/* ------Contact Us Page Banner 2------ */
+.contact_2_bg{
+    background-image: url(../images/bg\ 1.png);
+    
+}
 
 /*#####################> Admin Start <################*/
 /* Banner Start  */
