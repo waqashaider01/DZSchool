@@ -20,6 +20,25 @@ body {
     margin-top: 100px;
 }
 
+.ps-6{
+    padding-left: 5rem;
+}
+
+/* ******image styling******* */
+.banner_image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_image img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
 /* ***************************DZ School Header****************************** */
 
 
@@ -32,6 +51,7 @@ body {
     background-color: var(--color_1);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .header_title {
     margin: 0;
     font-size: 35px;
@@ -172,22 +192,6 @@ body {
     color: var(--color_7);
 }
 
-/* ------Hero Section Right Column----- */
-.hero_div_right {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero_div_right img {
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-}
-
-
 /* ***************************Home Page Banner 2****************************** */
 
 .banner_2 {
@@ -243,40 +247,28 @@ body {
     font-size: 20px;
 }
 
-/* ------Column 2------ */
-.column_2_image{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.column_2_image img{
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-}
-
 /* ***************************Home Page Banner 4****************************** */
 
-/* ------column 1------ */
-.column_1_image{
-    width: 100%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.column_1_image img{
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-}
-
 /* ------column 2------ */
+
+.button_4{
+    background-color: var(--color_3);
+    color: var(--color_5);
+    border-radius: 10px;
+    padding: 8px 30px;
+    border: 2px solid var(--color_3);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    margin-top: -3rem;
+}
+
+.button_4:hover{
+    background-color: var(--color_7);
+    border: 2px solid var(--color_7);
+    color: var(--color_5);
+}
+
 .column_2_content{
     padding-top: 100px;
 }
@@ -296,9 +288,9 @@ body {
 /* ***************************Home Page Banner 5****************************** */
 
 .banner_5{
-    background-color: var(--color_1);
-    background-image: url(../images/1-left.png);
-    background-image: url(../images/1-right.png);
+    background-image: url(../images/Group\ 20.png);
+    object-fit: cover;
+    background-size: cover;
 }
 
 /* -----Banner 5 Button----- */
@@ -319,25 +311,184 @@ body {
     color: var(--color_5);
 }
 
-
+/* -----Banner 5 Content----- */
 .column_5_content{
     text-align: center;
 }
 
+/* -----Banner 5 Heading----- */
 .column_5_content h3{
     color: var(--color_5);
     font-weight: 700;
     font-size: 40px;
 }
 
+/* -----Banner 5 Paragraph----- */
 .column_5_content p{
+    color: var(--color_5);
     font-weight: 400;
-font-size: 24px;
+    font-size: 24px;
 }
 
-/* -----Banner 5 Image----- */
-.column_5_image{
-    width: 100%;
+/* ***************************Home Page Banner 6****************************** */
+
+.button_6_1{
+    background-color: var(--color_3);
+    color: var(--color_5);
+    border-radius: 10px;
+    padding: 8px 30px;
+    border: 2px solid var(--color_3);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button_6_1:hover{
+    background-color: var(--color_7);
+    border: 2px solid var(--color_7);
+    color: var(--color_5);
+}
+
+.column_6_content{
+    padding-top: 5rem;
+}
+
+.column_6_content h3{
+    color: var(--color_4);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.column_6_content p{
+    color: var(--color_4);
+    font-weight: 400;
+    font-size: 22px;
+}
+
+ 
+/* -----Anchor Button 1------ */
+.anchor_6_1{
+    background: linear-gradient(180deg, #0078AA 0%, rgba(42, 166, 233, 0.84) 100%);
+    color: var(--color_5);
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    gap: 20px;
+    text-decoration: none;
+    padding: 16px 30px
+}
+
+.anchor_6_1:hover{
+    background: linear-gradient(180deg, #DFBB00 0%, #9b8f56 100%);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.anchor_6_1 p{
+    margin-top: -5px;
+    color: var(--color_5);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.anchor_6_1 p span{
+    color: var(--color_5);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 990px)  {
+
+.anchor_6_1{
+    
+    padding: 16px 26px
+}
+
+
+}
+/* -------Anchor Button 2------ */
+
+.anchor_6_2{
+    background: transparent;
+    border: 2px solid var(--color_1);
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    gap: 20px;
+    text-decoration: none;
+    padding: 16px 30px
+}
+
+.anchor_6_2 p{
+    margin-top: -5px;
+    color: var(--color_1);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.anchor_6_2 p span{
+    color: var(--color_1);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+/* ***************************Home Page Banner 7****************************** */
+.banner_7_heading h3{
+    color: var(--color_4);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner_7_card{
+    background-color: var(--color_10);
+    border-radius: 25px;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+}
+
+.banner_7_card_content h5{
+    color: var(--color_5);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.banner_7_card_content p{
+    color: var(--color_5);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner_7_card_content a{
+    color: var(--color_5);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* ***************************Home Page Banner 8****************************** */
+.banner_8_content h3{
+    text-align: center;
+    color: var(--color_4);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.banner_8_content h3 span{
+    color: var(--color_3);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.banner_8_card{
+    padding: 15px;
+    border: 1px solid var(--color_8);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.banner_8_card_img{
     width: 100%;
     height: 100%;
     display: flex;
@@ -345,10 +496,146 @@ font-size: 24px;
     justify-content: center;
 }
 
-.column_5_image img{
-    width: 100%;
+.banner_8_card_img img{
+    width: 80%;
     object-fit: cover;
     background-size: cover;
+}
+
+.banner_8_card_content h5{
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--color_4);
+}
+
+.banner_8_card_content p{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color_4);
+}
+
+/* ***************************DZ School Footer****************************** */
+
+.footer_bg_image{
+    background-image: url(../images/Vector\ 1.png);
+    width: 100%;
+    /* height: 90vh; */
+    object-fit: cover;
+    background-size: cover;
+    
+}
+
+.footer_row{
+    padding-top: 12rem;
+}
+
+.footer_column p{
+    color: var(--color_5);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer_column h5{
+    color: var(--color_5);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer_column ul{
+    padding-left: 0;
+}
+
+.footer_column ul li{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer_column ul li a{
+    text-decoration: none;
+    color: var(--color_5);
+    font-weight: 400;
+    font-size: 20px;
+}
+@media(max-width:990px)
+{
+    .footer_main{
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+/* -----Anchor Button 1------ */
+.anchor_f_1{
+    background-color: var(--color_3);
+    color: var(--color_5);
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    gap: 20px;
+    text-decoration: none;
+    padding: 16px 30px
+}
+
+.anchor_f_1:hover{
+    background: linear-gradient(180deg, #DFBB00 0%, #9b8f56 100%);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.anchor_f_1 p{
+    margin-top: -5px;
+    color: var(--color_5);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.anchor_f_1 p span{
+    color: var(--color_5);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+/* -------Anchor Button 2------ */
+
+.anchor_f_2{
+    background: transparent;
+    border: 2px solid var(--color_3);
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    gap: 20px;
+    text-decoration: none;
+    padding: 16px 30px
+}
+
+.anchor_f_2 p{
+    margin-top: -5px;
+    color: var(--color_5);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.anchor_f_2 p span{
+    color: var(--color_5);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.social_icons{
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--color_5);
+    display: flex;
+    justify-content: center;
+}
+
+.social_icons i{
+    margin-right: 2rem;
+}
+
+.social_icons i:hover{
+    color: var(--color_3);
+    transition: all 0.2s ease-in-out;
 }
 
 
@@ -572,6 +859,3 @@ color:var(--color_7);
     bottom: 0px;
 }
 }
-
-
- 
