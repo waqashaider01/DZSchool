@@ -1,110 +1,120 @@
 :root {
-    --color_1: #298DC5;
-    --color_2: #F5F5F5;
-    --color_3: #DFBB00;
-    --color_4: #000000;
-    --color_5: #FFFFFF;
-    --color_6: #9C8A2C;
-    --color_7: #075A7C;
-    --color_8: #7EDEFC;
-    --color_9: #ABABAB;
-    --color_10: #037AAB;
-        --about_card:#107FAE;
+  --color_1: #298dc5;
+  --color_2: #f5f5f5;
+  --color_3: #dfbb00;
+  --color_4: #000000;
+  --color_5: #ffffff;
+  --color_6: #9c8a2c;
+  --color_7: #075a7c;
+  --color_8: #7edefc;
+  --color_9: #ababab;
+  --color_10: #037aab;
+  --about_card: #107fae;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
-.mt-6{
-    margin-top: 100px;
+.mt-6 {
+  margin-top: 100px;
 }
 
-.ps-6{
-    padding-left: 5rem;
+.ps-6 {
+  padding-left: 10rem;
+}
+
+.pe-6 {
+  padding-right: 10rem;
 }
 
 /* ******image styling******* */
-.banner_image{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.banner_image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner_image img{
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
+.banner_image img {
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
 }
+
+/* ######################################Landing Page###################################### */
 
 /* ***************************DZ School Header****************************** */
 
-
 /* ------Header Title------ */
 .website_header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: 20px 100px; */
-    background-color: var(--color_1);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20px 100px; */
+  background-color: var(--color_1);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header_title {
-    margin: 0;
-    font-size: 35px;
-    font-weight: 800;
-    text-align: left;
-    color: var(--color_2);
+  margin: 0;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: left;
+  color: var(--color_2);
 }
 
 .header_title:hover {
-    color: var(--color_2);
+  color: var(--color_2);
 }
 
 .header_title span {
-    color: var(--color_3);
-    margin-right: 5px;
+  color: var(--color_3);
+  margin-right: 5px;
 }
 
 /* ------Header Toggle Button------ */
 
 .header_toggle_button {
-    color: var(--color_3);
-    border: 2px solid var(--color_3);
-    border-radius: 10px;
-    padding: 10px 20px;
+  color: var(--color_3);
+  border: 2px solid var(--color_3);
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .header_toggle_button_icon {
-    color: var(--color_3);
-    background-image: none;
+  color: var(--color_3);
+  background-image: none;
 }
 
 .header_toggle_button_icon i {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 /* ------Header Nav Tabs------ */
 
 .header_nav_tabs li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .header_nav_tabs li a {
-    color: var(--color_5);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
+  color: var(--color_5);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .header_nav_tabs li a:hover {
+
+  color: var(--color_3);
+  transition: all 0.2s ease-in-out;
+
     color: rgba(0, 0, 0, 0.5);
 
     transition: all 0.2s ease-in-out;
+
 }
 .multi_drop{
     background-color: var(--color_9);
@@ -126,581 +136,690 @@ body {
 }
 /* ------Header Contact Us Button------ */
 .header_button {
-    background-color: transparent;
-    color: var(--color_3);
-    border: 2px solid var(--color_3);
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    text-align: right;
+  background-color: transparent;
+  color: var(--color_3);
+  border: 2px solid var(--color_3);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
 }
 
 .header_button:hover {
-    color: var(--color_2);
-    border: 2px solid var(--color_2);
-    transition: all 0.2s ease-in-out;
+  color: var(--color_2);
+  border: 2px solid var(--color_2);
+  transition: all 0.2s ease-in-out;
 }
 
 /* ***************************DZ School Hero Section****************************** */
 
 .hero_div_left {
-    padding-top: 120px;
+  padding-top: 120px;
 }
 
 /* -----Hero Section Heading------ */
 .hero_div_left h1 {
-    color: var(--color_4);
-    font-weight: 700;
-    font-size: 57px;
+  color: var(--color_4);
+  font-weight: 700;
+  font-size: 57px;
 }
 
 /* -----Hero Section Paragraph----- */
 .hero_div_left p {
-    color: var(--color_4);
-    font-weight: 400;
-    font-size: 24px;
+  color: var(--color_4);
+  font-weight: 400;
+  font-size: 24px;
 }
 
 /* -----Hero Section Buttons----- */
 
 .hero_buttons {
-    gap: 1rem;
+  gap: 1rem;
 }
 
 .button_1 {
-    background-color: var(--color_7);
-    border-radius: 10px;
-    padding: 8px 50px;
-    color: var(--color_5);
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out;
+  background-color: var(--color_7);
+  border-radius: 10px;
+  padding: 8px 50px;
+  color: var(--color_5);
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
+.button_1 span {
+  position: relative;
+  left: -40px;
+}
 
 .btn_img {
-    width: 80px;
-    position: absolute;
-    top: 0;
-    right: 10px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  right: 10px;
 }
 
-
 .btn_img_postion {
-    position: relative;
+  position: relative;
 }
 
 .button_1:hover {
-    background-color: var(--color_3);
-    color: var(--color_5);
+  background-color: var(--color_3);
+  color: var(--color_5);
 }
 
 .button_2 {
-    border-radius: 10px;
-    padding: 8px 30px;
-    border: 2px solid var(--color_3);
-    color: var(--color_3);
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  padding: 8px 30px;
+  border: 2px solid var(--color_3);
+  color: var(--color_3);
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
 .button_2:hover {
-    border: 2px solid var(--color_7);
-    color: var(--color_7);
+  border: 2px solid var(--color_7);
+  color: var(--color_7);
 }
 
 /* ***************************Home Page Banner 2****************************** */
 
 .banner_2 {
-    margin-top: 82px;
-    background-color: var(--color_10);
-    padding: 34px 0;
+  margin-top: 82px;
+  background-color: var(--color_10);
+  padding: 34px 0;
 }
 
 .banner_2_inner {
-    background-color: var(--color_7);
-    border: 1px solid var(--color_8);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    text-align: center;
-    padding: 40px;
+  background-color: var(--color_7);
+  border: 1px solid var(--color_8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px;
 }
 
 .banner_2_inner h3 {
-    color: var(--color_5);
-    font-weight: 700;
-    font-size: 40px;
+  color: var(--color_5);
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .banner_2_inner p {
-    color: var(--color_5);
-    font-weight: 500;
-    font-size: 24px;
+  color: var(--color_5);
+  font-weight: 500;
+  font-size: 24px;
 }
 
 /* ***************************Home Page Banner 3****************************** */
 
 /* ------Banner 3 Heading------ */
-.banner_3 h3{
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    color: var(--color_7);
+.banner_3 h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--color_7);
 }
 
 /* ------Column 1------ */
-.column_content{
-    gap: 1rem;
+.column_content {
+  gap: 1rem;
 }
 
-.column_content img{
-    width: 20%;
+.column_content img {
+  width: 20%;
 }
 
-.column_content p{
-    margin-top: 20px;
-    color: var(--color_4);
-    font-weight: 500;
-    font-size: 20px;
+.column_content p {
+  margin-top: 20px;
+  color: var(--color_4);
+  font-weight: 500;
+  font-size: 20px;
 }
 
 /* ***************************Home Page Banner 4****************************** */
 
 /* ------column 2------ */
 
-.button_4{
-    background-color: var(--color_3);
-    color: var(--color_5);
-    border-radius: 10px;
-    padding: 8px 30px;
-    border: 2px solid var(--color_3);
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out;
-    margin-top: -3rem;
+.button_4 {
+  background-color: var(--color_3);
+  color: var(--color_5);
+  border-radius: 10px;
+  padding: 8px 30px;
+  border: 2px solid var(--color_3);
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+  margin-top: -3rem;
 }
 
-.button_4:hover{
-    background-color: var(--color_7);
-    border: 2px solid var(--color_7);
-    color: var(--color_5);
+.button_4:hover {
+  background-color: var(--color_7);
+  border: 2px solid var(--color_7);
+  color: var(--color_5);
 }
 
-.column_2_content{
-    padding-top: 100px;
+.column_2_content {
+  padding-top: 100px;
 }
 
-.column_2_content h3{
-    font-weight: 600;
-    font-size: 40px;
-    color: var(--color_4);
+.column_2_content h3 {
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--color_4);
 }
 
-.column_2_content p{
-    font-weight: 400;
-    font-size: 20px;
-    color: var(--color_4);
+.column_2_content p {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color_4);
 }
 
 /* ***************************Home Page Banner 5****************************** */
 
-.banner_5{
-    background-image: url(../images/Group\ 20.png);
-    object-fit: cover;
-    background-size: cover;
+.banner_5 {
+  background-image: url(../images/Group\ 20.png);
+  object-fit: cover;
+  background-size: cover;
 }
 
 /* -----Banner 5 Button----- */
-.button_3{
-    background-color: var(--color_3);
-    color: var(--color_5);
-    border-radius: 10px;
-    padding: 8px 30px;
-    border: 2px solid var(--color_3);
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out;
+.button_3 {
+  background-color: var(--color_3);
+  color: var(--color_5);
+  border-radius: 10px;
+  padding: 8px 30px;
+  border: 2px solid var(--color_3);
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
-.button_3:hover{
-    background-color: var(--color_7);
-    border: 2px solid var(--color_7);
-    color: var(--color_5);
+.button_3:hover {
+  background-color: var(--color_7);
+  border: 2px solid var(--color_7);
+  color: var(--color_5);
 }
 
 /* -----Banner 5 Content----- */
-.column_5_content{
-    text-align: center;
+.column_5_content {
+  text-align: center;
 }
 
 /* -----Banner 5 Heading----- */
-.column_5_content h3{
-    color: var(--color_5);
-    font-weight: 700;
-    font-size: 40px;
+.column_5_content h3 {
+  color: var(--color_5);
+  font-weight: 700;
+  font-size: 40px;
 }
 
 /* -----Banner 5 Paragraph----- */
-.column_5_content p{
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 24px;
+.column_5_content p {
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 24px;
 }
 
 /* ***************************Home Page Banner 6****************************** */
 
-.button_6_1{
-    background-color: var(--color_3);
-    color: var(--color_5);
-    border-radius: 10px;
-    padding: 8px 30px;
-    border: 2px solid var(--color_3);
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out;
+.button_6_1 {
+  background-color: var(--color_3);
+  color: var(--color_5);
+  border-radius: 10px;
+  padding: 8px 30px;
+  border: 2px solid var(--color_3);
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
-.button_6_1:hover{
-    background-color: var(--color_7);
-    border: 2px solid var(--color_7);
-    color: var(--color_5);
+.button_6_1:hover {
+  background-color: var(--color_7);
+  border: 2px solid var(--color_7);
+  color: var(--color_5);
 }
 
-.column_6_content{
-    padding-top: 5rem;
+.column_6_content {
+  padding-top: 5rem;
 }
 
-.column_6_content h3{
-    color: var(--color_4);
-    font-weight: 700;
-    font-size: 40px;
+.column_6_content h3 {
+  color: var(--color_4);
+  font-weight: 700;
+  font-size: 40px;
 }
 
-.column_6_content p{
-    color: var(--color_4);
-    font-weight: 400;
-    font-size: 22px;
+.column_6_content p {
+  color: var(--color_4);
+  font-weight: 400;
+  font-size: 22px;
 }
 
- 
 /* -----Anchor Button 1------ */
-.anchor_6_1{
-    background: linear-gradient(180deg, #0078AA 0%, rgba(42, 166, 233, 0.84) 100%);
-    color: var(--color_5);
-    border-radius: 25px;
-    transition: all 0.2s ease-in-out;
-    gap: 20px;
-    text-decoration: none;
-    padding: 16px 30px
+.anchor_6_1 {
+  background: linear-gradient(
+    180deg,
+    #0078aa 0%,
+    rgba(42, 166, 233, 0.84) 100%
+  );
+  color: var(--color_5);
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  gap: 20px;
+  text-decoration: none;
+  padding: 16px 30px;
 }
 
-.anchor_6_1:hover{
-    background: linear-gradient(180deg, #DFBB00 0%, #9b8f56 100%);
-    transition: all 0.2s ease-in-out;
+.anchor_6_1:hover {
+  background: linear-gradient(180deg, #dfbb00 0%, #9b8f56 100%);
+  transition: all 0.2s ease-in-out;
 }
 
-
-.anchor_6_1 p{
-    margin-top: -5px;
-    color: var(--color_5);
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 0;
+.anchor_6_1 p {
+  margin-top: -5px;
+  color: var(--color_5);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
-.anchor_6_1 p span{
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 10px;
+.anchor_6_1 p span {
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 10px;
 }
 
-
-
-@media only screen and (max-width: 1200px) and (min-width: 990px)  {
-
-.anchor_6_1{
-    
-    padding: 16px 26px
-}
-
-
+@media only screen and (max-width: 1200px) and (min-width: 990px) {
+  .anchor_6_1 {
+    padding: 16px 26px;
+  }
 }
 /* -------Anchor Button 2------ */
 
-.anchor_6_2{
-    background: transparent;
-    border: 2px solid var(--color_1);
-    border-radius: 25px;
-    transition: all 0.2s ease-in-out;
-    gap: 20px;
-    text-decoration: none;
-    padding: 16px 30px
+.anchor_6_2 {
+  background: transparent;
+  border: 2px solid var(--color_1);
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  gap: 20px;
+  text-decoration: none;
+  padding: 16px 30px;
 }
 
-.anchor_6_2 p{
-    margin-top: -5px;
-    color: var(--color_1);
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 0;
+.anchor_6_2 p {
+  margin-top: -5px;
+  color: var(--color_1);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
-.anchor_6_2 p span{
-    color: var(--color_1);
-    font-weight: 400;
-    font-size: 10px;
+.anchor_6_2 p span {
+  color: var(--color_1);
+  font-weight: 400;
+  font-size: 10px;
 }
 
 /* ***************************Home Page Banner 7****************************** */
-.banner_7_heading h3{
-    color: var(--color_4);
-    font-weight: 600;
-    font-size: 40px;
-    text-align: center;
+.banner_7_heading h3 {
+  color: var(--color_4);
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
 }
 
-.banner_7_card{
-    background-color: var(--color_10);
-    border-radius: 25px;
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+.banner_7_card {
+  height: 100%;
+  background-color: var(--color_10);
+  border-radius: 25px;
+  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
 }
 
-.banner_7_card_content h5{
-    color: var(--color_5);
-    font-weight: 600;
-    font-size: 32px;
+.banner_7_card_content h5 {
+  color: var(--color_5);
+  font-weight: 600;
+  font-size: 32px;
 }
 
-.banner_7_card_content p{
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 18px;
+.banner_7_card_content p {
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 18px;
 }
 
-.banner_7_card_content a{
-    color: var(--color_5);
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
+.banner_7_card_content a {
+  color: var(--color_5);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
 }
+
+/* @media only screen and (max-width: 576px) and (min-width: 320px)  
+{
+    .banner_7_card{
+        margin-top: 2rem;
+    }
+} */
 
 /* ***************************Home Page Banner 8****************************** */
-.banner_8_content h3{
-    text-align: center;
-    color: var(--color_4);
-    font-weight: 600;
-    font-size: 40px;
+.banner_8_content h3 {
+  text-align: center;
+  color: var(--color_4);
+  font-weight: 600;
+  font-size: 40px;
 }
 
-.banner_8_content h3 span{
-    color: var(--color_3);
-    font-weight: 600;
-    font-size: 40px;
+.banner_8_content h3 span {
+  color: var(--color_3);
+  font-weight: 600;
+  font-size: 40px;
 }
 
-.banner_8_card{
-    padding: 15px;
-    border: 1px solid var(--color_8);
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+.banner_8_card {
+  height: 100%;
+  padding: 15px;
+  border: 1px solid var(--color_8);
+  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
-.banner_8_card_img{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.banner_8_card_img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner_8_card_img img{
-    width: 80%;
-    object-fit: cover;
-    background-size: cover;
+.banner_8_card_img img {
+  width: 80%;
+  object-fit: cover;
+  background-size: cover;
 }
 
-.banner_8_card_content h5{
-    font-weight: 600;
-    font-size: 22px;
-    color: var(--color_4);
+.banner_8_card_content h5 {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--color_4);
 }
 
-.banner_8_card_content p{
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--color_4);
+.banner_8_card_content p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color_4);
 }
 
 /* ***************************DZ School Footer****************************** */
 
-.footer_bg_image{
-    background-image: url(../images/Vector\ 1.png);
-    width: 100%;
-    /* height: 90vh; */
-    object-fit: cover;
-    background-size: cover;
-    
+.footer_bg_image {
+  background-image: url(../images/Vector\ 1.png);
+  width: 100%;
+  /* height: 90vh; */
+  object-fit: cover;
+  background-size: cover;
 }
 
-.footer_row{
-    padding-top: 12rem;
+.footer_row {
+  padding-top: 12rem;
 }
 
-.footer_column p{
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 20px;
+.footer_column p {
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 20px;
 }
 
-.footer_column h5{
-    color: var(--color_5);
-    font-weight: 600;
-    font-size: 25px;
+.footer_column h5 {
+  color: var(--color_5);
+  font-weight: 600;
+  font-size: 25px;
 }
 
-.footer_column ul{
-    padding-left: 0;
+.footer_column ul {
+  padding-left: 0;
 }
 
-.footer_column ul li{
-    list-style: none;
-    padding-left: 0;
+.footer_column ul li {
+  list-style: none;
+  padding-left: 0;
 }
 
-.footer_column ul li a{
-    text-decoration: none;
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 20px;
+.footer_column ul li a {
+  text-decoration: none;
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
 }
-@media(max-width:990px)
-{
-    .footer_main{
-        position: relative;
-        bottom: 20px;
-    }
+
+.footer_column ul li :hover {
+  color: var(--color_3);
+}
+
+@media (max-width: 990px) {
+  .footer_main {
+    position: relative;
+    bottom: 20px;
+  }
 }
 
 /* -----Anchor Button 1------ */
-.anchor_f_1{
-    background-color: var(--color_3);
-    color: var(--color_5);
-    border-radius: 25px;
-    transition: all 0.2s ease-in-out;
-    gap: 20px;
-    text-decoration: none;
-    padding: 16px 30px
+.anchor_f_1 {
+  background-color: var(--color_3);
+  color: var(--color_5);
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  gap: 20px;
+  text-decoration: none;
+  padding: 16px 30px;
 }
 
-.anchor_f_1:hover{
-    background: linear-gradient(180deg, #DFBB00 0%, #9b8f56 100%);
-    transition: all 0.2s ease-in-out;
+.anchor_f_1:hover {
+  background: linear-gradient(180deg, #dfbb00 0%, #9b8f56 100%);
+  transition: all 0.2s ease-in-out;
 }
 
-
-.anchor_f_1 p{
-    margin-top: -5px;
-    color: var(--color_5);
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 0;
+.anchor_f_1 p {
+  margin-top: -5px;
+  color: var(--color_5);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
-.anchor_f_1 p span{
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 10px;
+.anchor_f_1 p span {
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 10px;
 }
 
 /* -------Anchor Button 2------ */
 
-.anchor_f_2{
-    background: transparent;
-    border: 2px solid var(--color_3);
-    border-radius: 25px;
-    transition: all 0.2s ease-in-out;
-    gap: 20px;
-    text-decoration: none;
-    padding: 16px 30px
+.anchor_f_2 {
+  background: transparent;
+  border: 2px solid var(--color_3);
+  border-radius: 25px;
+  gap: 20px;
+  text-decoration: none;
+  padding: 16px 30px;
 }
 
-.anchor_f_2 p{
-    margin-top: -5px;
-    color: var(--color_5);
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 0;
+.anchor_f_2 p {
+  margin-top: -5px;
+  color: var(--color_5);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
-.anchor_f_2 p span{
-    color: var(--color_5);
-    font-weight: 400;
-    font-size: 10px;
+.anchor_f_2 p span {
+  color: var(--color_5);
+  font-weight: 400;
+  font-size: 10px;
 }
 
-.social_icons{
-    font-weight: 400;
-    font-size: 30px;
-    color: var(--color_5);
-    display: flex;
-    justify-content: center;
+.social_icons {
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--color_5);
+  display: flex;
+  justify-content: center;
 }
 
-.social_icons i{
-    margin-right: 2rem;
+.social_icons i {
+  margin-right: 2rem;
 }
 
-.social_icons i:hover{
-    color: var(--color_3);
-    transition: all 0.2s ease-in-out;
+.social_icons i:hover {
+  color: var(--color_3);
+  transition: all 0.2s ease-in-out;
 }
 
+/* ######################################Contact Us Page###################################### */
+
+/* ------Contact Us Page Banner 1------ */
+.contact_info h3 {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--color_4);
+}
+
+.contact_info p {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color_4);
+}
+
+.contact_info a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color_4);
+}
+
+/* ------Contact Us Page Banner 2------ */
+.contact_heading h3 {
+  text-align: center;
+  color: var(--color_10);
+  font-weight: 600;
+  font-size: 40px;
+  border-bottom: 3px double var(--color_3);
+  width: 226px;
+}
+
+.contact_2_bg {
+  background-image: url(../images/bg.PNG);
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39);
+  border-radius: 26px;
+}
+
+.contact_2_filter {
+  background: rgba(52, 52, 52, 0.36);
+  backdrop-filter: blur(12px);
+  border-radius: 11px;
+}
+
+.contact_form_control {
+  padding: 1rem 0.75rem;
+}
+
+/* ------Contact Us Page Banner 3------ */
+.contact_card {
+  background: transparent;
+  border: none;
+}
+
+.carousel_body {
+  text-align: center;
+}
+
+.carousel_body h3 {
+  color: var(--color_4);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.carousel_body p {
+  color: var(--color_4);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.contact_carousel_pre_icon {
+  background-image: url(../images/left-arrow.png);
+}
+
+.contact_carousel_next_icon {
+  background-image: url(../images/right-arrow.png);
+}
+
+.carousel_card {
+  border: none;
+}
+
+.carousel_card_body {
+  text-align: left;
+}
+
+.carousel_card_body h5 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color_4);
+}
+
+.carousel_card_body a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color_4);
+}
 
 /*#####################> Admin Start <################*/
 /* Banner Start  */
 
 .ban_sec {
-    position: relative;
-    background: linear-gradient(104.38deg, rgba(0, 120, 170, 0.63) 8.4%, rgba(192, 0, 223, 0.63) 100%);
+  position: relative;
+  background: linear-gradient(
+    104.38deg,
+    rgba(0, 120, 170, 0.63) 8.4%,
+    rgba(192, 0, 223, 0.63) 100%
+  );
   width: 100%;
 }
 .ban_img {
   width: 100%;
   display: flex;
   justify-content: center;
- 
 }
 .ban_img1 {
   width: 100%;
   display: flex;
   justify-content: center;
- 
 }
 .ban_img img {
   width: 50%;
- height: 90vh;
- z-index: -111;
-     
-
+  height: 90vh;
+  z-index: -111;
 }
 .ban_img1 img {
   width: 100%;
- height: 90vh;
- z-index: -111;
-     
-
+  height: 90vh;
+  z-index: -111;
 }
 .ban_text {
   position: absolute;
   top: 50%;
   left: 30%;
-  
-
 }
-.ban_text1{
-    position: absolute;
+.ban_text1 {
+  position: absolute;
   top: 20%;
   left: 0%;
   text-align: center;
@@ -709,7 +828,7 @@ body {
 .ban_text strong {
   font: 800 70.22px/70px "Montserrat", sans-serif;
   color: #fff;
-    transform: translateY(-50%,-50);
+  transform: translateY(-50%, -50);
   text-transform: uppercase;
 }
 .ban_text strong span {
@@ -717,16 +836,12 @@ body {
   letter-spacing: 3px;
   line-height: 100px;
 }
- 
- 
-@media(max-width:950px)
-{
 
-    .ban_text1 strong span {
-  font: 400 30.44px/52px "Montserrat", sans-serif;
-  letter-spacing: 3px;
-}
-
+@media (max-width: 950px) {
+  .ban_text1 strong span {
+    font: 400 30.44px/52px "Montserrat", sans-serif;
+    letter-spacing: 3px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .ban_img img {
@@ -734,7 +849,7 @@ body {
     object-fit: cover;
   }
 }
- 
+
 @media only screen and (max-width: 480px) {
   .ban_text strong span {
     font-size: 30px;
@@ -742,50 +857,65 @@ body {
     letter-spacing: 1px;
   }
 
-    .ban_text1 strong span {
+  .ban_text1 strong span {
     font-size: 25px !important;
-    line-height:0px !important;
+    line-height: 0px !important;
     letter-spacing: 1px;
   }
-   .ban_img img {
+  .ban_img img {
     width: 100%;
     height: 100vh;
-}
-.ban_text {
-  position: absolute;
-  top: 60%;
-  left: 10%;
-  
+  }
+  .ban_text {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
 
-}
-
-.ban_text1 {
-  position: absolute;
-  top: 10% !important;
-  left: 0%;
-  
-
-}
+  .ban_text1 {
+    position: absolute;
+    top: 10% !important;
+    left: 0%;
+  }
 }
 /* Bannner End  */
 
 /* Work Start  */
-.work{
-    text-align: center;
-
+.work {
+  text-align: center;
 }
-.Main_Haed_work{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 47px;
-text-align: center;
+.Main_Haed_work {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
 
-color:var(--color_7);
+  color: var(--color_7);
 }
 /* Work End  */
 
+.admin_rounded_card {
+  background: var(--color_5);
+  box-shadow: 7px 8px 23px rgba(0, 0, 0, 0.25),
+    -6px 0px 26px rgba(125, 220, 249, 0.57);
+
+
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
+  width: 100%;
+  height: 330px;
+}
+.about_card {
+  background: var(--about_card);
+  /* card shadow */
+  color: white;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
+  width: 100%;
+  height: 330px;
+}
 
  .admin_rounded_card{
   
@@ -858,36 +988,79 @@ color: #000000;
 
  }
 
+
+.about_card_seco {
+  /* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39); */
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  text-align: start;
+  height: 400px;
+}
+.card_hand {
+  height: 250px;
+}
+@media (max-width: 768px) {
+  .admin_rounded_card {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+  }
+}
+.admin_card_img {
+  width: 80px;
+}
+.card_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+
+  line-height: 42px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
 /*#####################> Admin Start <################*/
 
-
-
 /* Feature Start  */
-.school_Main img{
-    width: 100%;
-
+.school_Main img {
+  width: 100%;
 }
-.school_section_text{
-     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 47px;
- 
+.school_section_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
 
-color:var(--color_7);
+  color: var(--color_7);
 }
 
-.feature_card img{
-    width: 100%;
-    height: 200px;
+.feature_card img {
+  width: 100%;
+  height: 200px;
 }
-.feature_card{
-    background-color: var(--color_10);
-    color: white;
-    text-align: center;
-    height: 430px;
+.feature_card {
+  background-color: var(--color_10);
+  color: white;
+  text-align: center;
+  height: 430px;
 }
+
+.feature_bg {
+  background: url(../images/feature_back1.png);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-size: 100%;
+}
+.feature_bg2 {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  bottom: 50px;
+
 .feature_bg{
     background: url(../images/feature_back1.png);
     width: 100%;
@@ -904,19 +1077,19 @@ color:var(--color_7);
     bottom: 50px;
     z-index: -100;
 }
-@media(max-width:768px)
-{
-    .feature_bg2{
+@media (max-width: 768px) {
+  .feature_bg2 {
     width: 100%;
     background-size: cover;
     position: relative;
     bottom: 0px;
+  }
 }
+
     .feature_bg{
     margin-bottom: -100px;
 }
 }
  
-
 
 
