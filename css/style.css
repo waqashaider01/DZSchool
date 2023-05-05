@@ -770,12 +770,20 @@ body {
   color: var(--color_4);
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .carousel_card_col_1 {
     justify-content: center !important;
   }
   .carousel_card_col_img {
     width: fit-content !important;
+  }
+
+  .contact_carousel_pre_icon {
+    margin-bottom: -169px;
+  }
+
+  .contact_carousel_next_icon {
+    margin-bottom: -169px;
   }
 }
 
