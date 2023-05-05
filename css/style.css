@@ -107,7 +107,7 @@ body {
 }
 
 .header_nav_tabs li a:hover {
-  color: var(--color_3);
+  color: var(--color_3) !important;
   transition: all 0.2s ease-in-out;
 
   color: rgba(0, 0, 0, 0.5);
@@ -168,7 +168,14 @@ body {
   font-weight: 400;
   font-size: 24px;
 }
+.sats_img{
+    width: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px
 
+}
 /* -----Hero Section Buttons----- */
 
 .hero_buttons {
@@ -266,7 +273,8 @@ body {
 }
 
 .column_content img {
-  width: 20%;
+  width: 60px;
+  height: 60px;
 }
 
 .column_content p {
