@@ -145,8 +145,11 @@ body {
 
 .header_button:hover {
   color: var(--color_2);
-  border: 2px solid var(--color_2);
+  /* border: 2px solid var(--color_2); */
   transition: all 0.2s ease-in-out;
+
+  background-color: var(--color_3);
+  
 }
 
 /* ***************************DZ School Hero Section****************************** */
@@ -206,11 +209,15 @@ body {
 
 .btn_img_postion {
   position: relative;
+  width: 200px;
+  height: 50px;
+  text-align: start;
 }
 
 .button_1:hover {
   background-color: var(--color_3);
   color: var(--color_5);
+
 }
 
 .button_2 {
@@ -220,14 +227,31 @@ body {
   color: var(--color_3);
   font-weight: 600;
   font-size: 16px;
+  height: 50px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  
 }
+
+
 
 .button_2:hover {
-  border: 2px solid var(--color_7);
-  color: var(--color_7);
+  /* border: 2px solid var(--color_7); */
+  color: var(--color_2);
+  background-color: var(--color_3);
+
 }
 
+@media (max-width:400px) {
+    .button_2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .btn_img_postion{
+        width: 100%;
+    }
+    
+}
 /* ***************************Home Page Banner 2****************************** */
 
 .banner_2 {
@@ -301,9 +325,12 @@ body {
 }
 
 .button_4:hover {
-  background-color: var(--color_7);
+  /* background-color: var(--color_7);
   border: 2px solid var(--color_7);
+  color: var(--color_5); */
+  background-color: var(--color_3);
   color: var(--color_5);
+  cursor: pointer;
 }
 
 .column_2_content {
@@ -343,9 +370,10 @@ body {
 }
 
 .button_3:hover {
-  background-color: var(--color_7);
-  border: 2px solid var(--color_7);
+  background-color: var(--color_3);
+  /* border: 2px solid var(--color_7);  */
   color: var(--color_5);
+  cursor: pointer;
 }
 
 /* -----Banner 5 Content----- */
@@ -381,8 +409,8 @@ body {
 }
 
 .button_6_1:hover {
-  background-color: var(--color_7);
-  border: 2px solid var(--color_7);
+  background-color: var(--color_3);
+  /* border: 2px solid var(--color_7); */
   color: var(--color_5);
 }
 
@@ -465,6 +493,16 @@ body {
   color: var(--color_1);
   font-weight: 400;
   font-size: 10px;
+}
+
+
+.anchor_6_2:hover{
+ background-color: var(--color_3);
+ color:var(--color_5) !important;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  border-color: var(--color_3);
+ cursor: pointer;
 }
 
 /* ***************************Home Page Banner 7****************************** */
