@@ -107,10 +107,33 @@ body {
 }
 
 .header_nav_tabs li a:hover {
+
   color: var(--color_3);
   transition: all 0.2s ease-in-out;
-}
 
+    color: rgba(0, 0, 0, 0.5);
+
+    transition: all 0.2s ease-in-out;
+
+}
+.multi_drop{
+    background-color: var(--color_9);
+    color: black;
+}
+.multi_drop li a:hover{
+    background-color: transparent !important;
+   
+}
+.multi_drop li{
+    background-color: var(--color_9);
+}
+.multi_drop li a{
+    color: var(--color_4);
+     padding-top: 15px;
+}
+.multi_drop li:hover{
+    background-color: var(--color_9);
+}
 /* ------Header Contact Us Button------ */
 .header_button {
   background-color: transparent;
@@ -907,6 +930,7 @@ body {
   box-shadow: 7px 8px 23px rgba(0, 0, 0, 0.25),
     -6px 0px 26px rgba(125, 220, 249, 0.57);
 
+
   border-top-left-radius: 170px;
   border-top-right-radius: 170px;
   width: 100%;
@@ -921,6 +945,78 @@ body {
   width: 100%;
   height: 330px;
 }
+
+ .admin_rounded_card{
+  
+
+
+    background: var(--color_5);
+box-shadow: 7px 8px 23px rgba(0, 0, 0, 0.25), -6px 0px 26px rgba(125, 220, 249, 0.57);
+
+        border-top-left-radius: 170px;
+        border-top-right-radius: 170px;
+        width: 100%;
+        height: 330px;
+ }
+ .about_card{
+    background: var(--about_card);
+/* card shadow */
+color: white;
+box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39);
+border-radius: 10px;
+        width: 100%;
+        height: 330px;
+ }
+
+.about_card_seco{
+     
+/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39); */
+border: none;
+border-radius: 10px;
+        width: 100%;
+        text-align: start;
+       
+}
+.card_hand{
+    height: 250px;
+}
+ @media(max-width:768px)
+ {
+  
+    .about_card_seco{
+     
+ 
+/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39); */
+border: none;
+border-radius: 10px;
+        width: 100%;
+        text-align: start;
+        height: auto !important;
+}
+ .admin_rounded_card{
+  
+        border-top-left-radius: 300px;
+        border-top-right-radius: 300px;
+         
+ }
+ 
+ }
+ .admin_card_img{
+    width: 80px;
+ }
+ .card_heading{
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+ 
+line-height: 42px;
+ 
+text-align: center;
+
+color: #000000;
+
+ }
+
 
 .about_card_seco {
   /* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.39); */
@@ -980,6 +1076,7 @@ body {
   text-align: center;
   height: 430px;
 }
+
 .feature_bg {
   background: url(../images/feature_back1.png);
   width: 100%;
@@ -992,6 +1089,22 @@ body {
   background-size: cover;
   position: relative;
   bottom: 50px;
+
+.feature_bg{
+    background: url(../images/feature_back1.png);
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-size: 100%;
+    margin-bottom: -140px;
+    z-index: -1;
+}
+.feature_bg2{
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    bottom: 50px;
+    z-index: -100;
 }
 @media (max-width: 768px) {
   .feature_bg2 {
@@ -1001,3 +1114,11 @@ body {
     bottom: 0px;
   }
 }
+
+    .feature_bg{
+    margin-bottom: -100px;
+}
+}
+ 
+
+
