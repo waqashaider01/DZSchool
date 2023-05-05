@@ -869,14 +869,19 @@ body {
     letter-spacing: 3px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .ban_img img {
     min-height: 290px;
     object-fit: cover;
   }
+    .ban_text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .ban_text strong span {
     font-size: 30px;
     line-height: 31px;
@@ -894,7 +899,7 @@ body {
   }
   .ban_text {
     position: absolute;
-    top: 60%;
+    top: 30%;
     left: 10%;
   }
 
