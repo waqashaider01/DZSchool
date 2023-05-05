@@ -676,6 +676,18 @@ body {
   color: var(--color_4);
 }
 
+@media only screen and (max-width: 425px) {
+  .contact_info_col {
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .contact_info_col_1 {
+    text-align: center !important;
+  }
+}
+
 /* ------Contact Us Page Banner 2------ */
 .contact_heading h3 {
   text-align: center;
@@ -756,6 +768,15 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: var(--color_4);
+}
+
+@media only screen and (max-width: 425px) {
+  .carousel_card_col_1 {
+    justify-content: center !important;
+  }
+  .carousel_card_col_img {
+    width: fit-content !important;
+  }
 }
 
 /*#####################> Admin Start <################*/
