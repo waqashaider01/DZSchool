@@ -120,6 +120,9 @@ body {
 }
 .multi_drop li a:hover {
   background-color: transparent !important;
+
+  color: rgba(0, 0, 0, 0.5) !important;
+
 }
 .multi_drop li {
   background-color: var(--color_9);
@@ -157,7 +160,12 @@ body {
 .hero_div_left {
   padding-top: 120px;
 }
-
+@media(max-width:768px)
+{
+   .hero_div_left {
+  padding-top: 50px;
+} 
+}
 /* -----Hero Section Heading------ */
 .hero_div_left h1 {
   color: var(--color_4);
