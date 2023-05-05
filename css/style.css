@@ -102,10 +102,28 @@ body {
 }
 
 .header_nav_tabs li a:hover {
-    color: var(--color_3);
+    color: rgba(0, 0, 0, 0.5);
+
     transition: all 0.2s ease-in-out;
 }
-
+.multi_drop{
+    background-color: var(--color_9);
+    color: black;
+}
+.multi_drop li a:hover{
+    background-color: transparent !important;
+   
+}
+.multi_drop li{
+    background-color: var(--color_9);
+}
+.multi_drop li a{
+    color: var(--color_4);
+     padding-top: 15px;
+}
+.multi_drop li:hover{
+    background-color: var(--color_9);
+}
 /* ------Header Contact Us Button------ */
 .header_button {
     background-color: transparent;
