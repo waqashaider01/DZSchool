@@ -197,9 +197,9 @@ body {
   right: 10px; */
 }
 
-/* .btn_img_postion {
+.btn_img_postion {
   position: relative;
-} */
+}
 
 .button_1:hover {
   background-color: var(--color_3);
@@ -254,10 +254,18 @@ body {
 
 /* ------Banner 3 Heading------ */
 .banner_3 h3 {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
   color: var(--color_7);
+}
+
+.border_bootom_h3 {
+  border-bottom: 3px double var(--color_3);
+  width: 226px;
+  margin: auto;
 }
 
 /* ------Column 1------ */
